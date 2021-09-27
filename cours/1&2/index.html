@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- defer permet de mettre le Js dans les meta
+    <script defer src="./index.js"></script> -->
+    <title>Javascript</title>
+</head>
+
+<body>
+
+    <!-- <script>
+        alert('Coucou');
+        console.log('Hello la console');
+        console.log(14 + 25)
+    </script> -->
+
+    <div class="click-event box">
+        <h4>Quelle est la capitale de la Suisse ? </h4>
+        <button id="btn1">Berne</button>
+        <button id="btn2">Zurich</button>
+        <p>La bonne est réponse est Berne</p>
+    </div>
+
+    <div class="mouseMove"></div>
+
+    <div class="keypress box">
+        <h2>Vous appuyer sur la touche : <span id="key"></span></h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li>Accueil</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <form action="" class="box">
+        <input type="text" placeholder="Entrez votre nom">
+
+        <select>
+            <option value="">Selectionner votre langage favoris</option>
+            <option value="Javascript">Javascript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+        </select>
+
+        <input type="checkbox" id="cgv">
+        <label for="cgv">Accepter les CGV</label>
+        
+        <input type="submit" value="valider">
+        <div></div>
+    </form>
+
+    <!-- Le fichier JS doit être lu en dernier -->
+    <script src="./index2.js"></script>
+</body>
+
+</html>
